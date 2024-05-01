@@ -13,7 +13,7 @@ body{
    font-size: 70px;
    color: orangered;
    text-align: center;
-   background-image: url(/img/165682-nasa-mars-mezhdunarodnaya_kosmicheskaya_stanc-programma_osvoeniya_marsa-planeta-3840x2160.jpg);
+   background-image: url(img/165682-nasa-mars-mezhdunarodnaya_kosmicheskaya_stanc-programma_osvoeniya_marsa-planeta-3840x2160.jpg);
 }
 .some-title{
    max-width: 800px;
