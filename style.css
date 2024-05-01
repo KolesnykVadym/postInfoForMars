@@ -1,0 +1,126 @@
+body{
+   background-color: beige;
+   padding: 0;
+   margin: 0;
+   font-family: 'Roboto';
+}
+.todoContainer{
+   justify-content: center;
+}
+
+.main-title{
+   padding: 50px 0;
+   font-size: 70px;
+   color: orangered;
+   text-align: center;
+   background-image: url(/img/165682-nasa-mars-mezhdunarodnaya_kosmicheskaya_stanc-programma_osvoeniya_marsa-planeta-3840x2160.jpg);
+}
+.some-title{
+   max-width: 800px;
+   text-align: center;
+   margin: 0 auto;
+   font-size: 30px;
+}
+
+.some-content{
+   border-bottom: 1px solid rosybrown;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.some-content-title{
+   font-size: 30px;
+   color: saddlebrown;
+   text-align: center;
+   padding-bottom: 15px;
+}
+.some-content-info{
+   text-align: center;
+}
+
+.find{
+   padding: 40px 20px 20px 40px;
+}
+
+.input{
+   width: 100%;
+   border: 0;
+   border-bottom: 2px solid saddlebrown;
+   outline: 0;
+   font-size: 1.3rem;
+   color: orangered;
+   padding: 7px 0;
+   background: transparent;
+   transition: border-color 0.2s;
+
+   &::placeholder {
+      color: gray;
+   }
+
+}
+.input:focus{
+      display: block;
+      transition: 0.2s;
+      font-size: 1.5rem;
+      font-weight:700; 
+
+      padding-bottom: 6px;  
+      font-weight: 700;
+      border-width: 3px;
+      border-image: linear-gradient(to right, #df7411,#bcf129);
+      border-image-slice: 1;
+}
+
+
+.btn {
+   margin-top: 10px;
+   padding: 15px 70px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;
+   border-radius: 10px;
+   display: block;
+   border: 0px;
+   font-weight: 700;
+   box-shadow: 0px 0px 14px -7px #f09819;
+   background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+   cursor: pointer;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+}
+
+.btn:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+}
+
+.btn:active {
+   transform: scale(0.95);
+}
+
+
+#searchResults {
+   width: 90%;
+   margin-top: 10px;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+.find{
+   display: flex;
+   gap: 150px;
+}
+.add-post{
+   gap: 10px;
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+}
+
+.btn-add{
+   width: 30%;
+}
